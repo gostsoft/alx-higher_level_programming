@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 word = "Holberton"
 word_first_3 = word[:3]
-word_last_2 = word[-2:0]
+word_last_2 = word[-2:]
 middle_word = word[4:5]
 
 print(f"First 3 letters: {word_first_3}")
