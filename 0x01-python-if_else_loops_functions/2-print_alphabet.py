@@ -2,6 +2,5 @@
 
 
 
-for let in range(97, 123):
-    print(f"{let:c}", end="")
-exit()
+for num in range(97, 123):
+    print("{}".format(chr(num)), end="")
