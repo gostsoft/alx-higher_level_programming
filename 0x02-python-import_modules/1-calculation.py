@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    import calculator_1
+    """Print the sum, difference, multiple and quotient of 10 and 5."""
+    from calculator_1 import add, sub, mul, div
 
     a = 10
     b = 5
-    
-    print(f"{a} + {b} = {calculator_1.add(a, b):d}")
-    print(f"{a} - {b} = {calculator_1.sub(a, b):d}")
-    print(f"{a} * {b} = {calculator_1.mul(a, b):d}")
-    print(f"{a} / {b} = {calculator_1.div(a, b):.0f}")
+
+    print("{} + {} = {}".format(a, b, add(a, b)))
+    print("{} - {} = {}".format(a, b, sub(a, b)))
+    print("{} * {} = {}".format(a, b, mul(a, b)))
+    print("{} / {} = {}".format(a, b, div(a, b)))
