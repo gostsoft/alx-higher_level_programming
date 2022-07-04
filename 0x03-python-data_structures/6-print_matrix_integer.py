@@ -2,7 +2,7 @@
 
 
 def print_matrix_integer(matrix=[[]]):
-    if len(matrix[0]) <= 0:
+    if len(matrix[0]) < 0:
         print("$")
     for m in matrix:
         for i in m:
