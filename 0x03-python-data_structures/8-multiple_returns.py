@@ -3,5 +3,5 @@
 def multiple_returns(sentence):
     lenght = len(sentence)
     if (sentence) == "":
-        return ("Lenght: {:d} - First character: {}".format(lenght, None))
+        return(0, None)
     return ("Lenght: {:d} - First character: {}".format(lenght, sentence[0]))
